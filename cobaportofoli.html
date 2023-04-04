@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <!-- Panggil CSS Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="main-page">
+        <!-- Navigasi main-page -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PortofolioCoba</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarColor01" aria-controls="navbarColor01" 
+                    aria-expanded="true" aria-label="Toggle navigation" fdprocessedid="kxqrc">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse show" id="navbarColor01" style>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MyInventory</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br />
+        <div class="container">
+            <!-- <div class="profile-card">  -->
+            <div class="row">
+                <div class="d-flex">
+                    <div class="col-md-2">
+                        <!-- <div class="image">  -->
+                        <div style="border-style:initial">
+                            <img
+                            src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/instagram-512.png"
+                            class="profile-img"
+                            class="rounded-circle"
+                            width="150" />
+                        </div>
+                    </div>
+                        <div class="col-md-4">
+                            <h4 id="name">Name</h4>
+                            <p id="role">Web Testing</p>
+                            <button id="edit-btn">Edit</button>
+                            <button>Resume</button>
+                        </div>
+                    <hr>
+                    <div class="col-md-6">
+                        <!-- ts -->
+                        <form action="" >
+                            <table class="biodata">
+                                <tr>
+                                    <td width="120">Availability</td>
+                                    <td>:</td>
+                                    <td id="availability">-</td>
+                                </tr>
+                                <tr>
+                                    <td>Usia</td>
+                                    <td>:</td>
+                                    <td id="usia">-</td>
+                                </tr>
+                                <tr>
+                                    <td>Lokasi</td>
+                                    <td>:</td>
+                                    <td id="lokasi">-</td>
+                                </tr>
+                                <tr>
+                                    <td >Pengalaman</td>
+                                    <td>:</td>
+                                    <td id="yearsExperience">-</td>
+                                </tr>
+                                <tr>
+                                    <td >Email</td>
+                                    <td>:</td>
+                                    <td id="email">-</td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="form-page">
+        <div class="container">
+            <div class="row">
+        
+            <form action="#">
+                <table class="biodata">
+                    <br>
+                <div class="user-details">
+                        
+                    <div class="input-inbox">
+                        <tr>
+                            <td class="isibiodata" width="120" >Nama</td>
+                            <td><input
+                                type="text"
+                                class="form-control"
+                                id="input-name"
+                                placeholder="Bambang"  
+                                maxlength="30" 
+                                size="150" ></td>
+                        </tr>
+                    </div>
+                    <div class="input-inbox">
+                        <tr >
+                            <td class="isibiodata">Role</td>
+                            <td>
+                                <input
+                                type="text"
+                                class="form-control"
+                                id="input-role"
+                                name="role"
+                                placeholder="backend"
+                                size="150">
+                                <!-- <input 
+                                type="radio"
+                                
+                                id="input-role"
+                                name="role" 
+                                value="Back-End">Back End
+                                <input 
+                                type="radio"
+                                
+                                id="input-role" 
+                                name="role"
+                                value="Management">Management
+                                <input 
+                                type="radio"
+                                
+                                id="input-role" 
+                                name="role"
+                                value="Web-Developer">Web Developer -->
+                        </tr>
+                    </div>
+                    <div class="input-inbox">
+                        <tr >
+                            <td class="isibiodata">Availability</td>
+                            <td><input 
+                                type="text"
+                                class="form-control"
+                                id="input-availabilty" 
+                                size="150"></td>
+                        </tr>
+                    </div>
+                    <div class="input-inbox">
+                        <tr >
+                            <td class="isibiodata">Usia</td>
+                            <td><input 
+                                type="text"
+                                class="form-control"
+                                id="input-usia"  
+                                size="150"></td>
+                        </tr>
+                    </div>
+                    <div class="input-inbox">
+                        <tr >
+                            <td class="isibiodata">Lokasi</td>
+                            <td><input 
+                                type="text"
+                                class="form-control"
+                                id="input-lokasi"  
+                                size="150"></td>
+                        </tr>
+                    </div>
+                    <div class="input-inbox">
+                        <tr >
+                            <td class="isibiodata">Years Experience</td>
+                            <td><input 
+                                type="text"
+                                class="form-control"
+                                id="input-yearsExperience"  
+                                size="150"></td>
+                        </tr>
+                    </div>
+                    <div class="input-inbox">
+                        <tr >
+                            <td class="isibiodata">Email</td>
+                            <td><input 
+                                type="text"
+                                class="form-control"
+                                id="input-email"
+                                placeholder="name@example.com"  
+                                size="150"></td>
+                        </tr>
+                    </div>
+                    <div class="input-inbox">
+                        <tr>
+                            <td></td>
+                            <td><div class="center">
+                                <input 
+                                type="submit"
+                                id="submit-btn"  
+                                value="Simpan">
+                                </div>
+                            </td>
+                        </tr>
+                    </div>
+                </div>
+                </table>
+            </form>
+            </div>
+        </div>
+    </div>
+    <!-- availability usia lokasi pengalaman email -->
+    <!-- Panggil JS Bootstrap -->
+    
+</body>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</html>

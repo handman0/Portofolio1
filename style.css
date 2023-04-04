@@ -1,0 +1,38 @@
+/* body{
+    padding: 10%;
+} */
+
+.container {
+    /* width: 200px; */
+    height: 200%;
+    border:  solid black;
+    border-radius: 10px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.isibiodata{
+    background-color: greenyellow; 
+    margin: 50px 0px 50px 0px;
+}
+input{
+    size: 200%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: aliceblue;
+    border: 3px solid blue; 
+    
+  }
+input{
+    size: 5;
+}
+/* form div   */
+/* table.biodata tr td input :nth-of-type(password){
+    size: 100;
+} */
