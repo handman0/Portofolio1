@@ -5,14 +5,10 @@ const editBtnEl = document.getElementById("edit-btn");
 const submitBtnEl = document.getElementById("submit-btn");
 
 // Input FormPageElement
-const inputEmailEl = document.getElementById("input-email");
-const inputNameEl = document.getElementById("input-name");
-const inputRoleEl = document.getElementById("input-role");
-const inputAvailabilityEl = document.getElementById("input-availability");
-const inputUsiaEl = document.getElementById("input-usia");
-const inputLokasiEl = document.getElementById("input-lokasi");
+const inputEmailEl = document.getElementById("input-email"); const inputNameEl = document.getElementById("input-name");
+const inputRoleEl = document.getElementById("input-role"); const inputAvailabilityEl = document.getElementById("input-availability");
+const inputUsiaEl = document.getElementById("input-usia"); const inputLokasiEl = document.getElementById("input-lokasi");
 const inputYearsExperienceEl = document.getElementById("input-yearsExperience");
-
 
 const nameEl = document.getElementById("name");
 const emailEl = document.getElementById("email");
@@ -21,9 +17,6 @@ const availabilityEl = document.getElementById("availability");
 const usiaEl = document.getElementById("usia");
 const lokasiEl = document.getElementById("lokasi");
 const yearsExperienceEl = document.getElementById("yearsExperience");
-
-
-
 
 formPageEl.style.display = "none";
 
@@ -42,6 +35,5 @@ submitBtnEl.addEventListener("click", function() {
     usiaEl.textContent = inputUsiaEl.value;
     lokasiEl.textContent = inputLokasiEl.value;
     yearsExperienceEl.textContent = inputYearsExperienceEl.value;
-
 
 });
